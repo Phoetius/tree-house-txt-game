@@ -88,22 +88,29 @@ Fireplace =
         if(this.fuel>=100)this.fuel = 100;
         
         //Setting info of fireplace based on fuel in fire
-        if(this.fuel>66 && this.fuel<=100) this.firestat = "The Fireplace is Well lit.";
-        else if(this.fuel>33 && this.fuel<=66) this.firestat = "The Fireplace is Calmly lit.";
-        else if(this.fuel>0 && this.fuel<=33) this.firestat = "The Fireplace is Dimly lit.";
+        if(this.fuel>66 && this.fuel<=100) this.firestat = "The Fireplace has big Hot Flames";
+        else if(this.fuel>33 && this.fuel<=66) this.firestat = "The Fireplace has Medium Flames";
+        else if(this.fuel>0 && this.fuel<=33) this.firestat = "The Fireplace has Glowing Embers.";
         else if((this.fuel<=0))
         {
             this.fuel = 0;
-            this.firestat = "The Fireplace is Not lit.";
+            this.firestat = "The Fireplace is nothing but Ash.";
         }
         
-        this.info = this.firestat + "<br><br> The fireplace is small and surrounded by rocks. Beside is a pile of sticks.";
+        this.info = "<a class = 'firestat' id='firestat'>" + this.firestat + "</a>" + "<br><br> The fireplace is small and surrounded by rocks. Beside is a pile of sticks.";
         this.e_objinfo.innerHTML = this.info;
+        
+        //Changing color
+        firestat_c = document.getElementById("firestat")
+        
+        firestat_c.style.color = "hsl(" +this.fuel/2+ ", " +this.fuel+ "%, " + 50 + "%)";
     },
     
     feedfuel : function()
     {
         this.fuel += 33;
+        
+        print("You Fed The Fire")
     }
     
 }
@@ -121,6 +128,6 @@ function update()
 {
     requestAnimationFrame(update);
     
-fireplace.update();
+    fireplace.update();
 }
 requestAnimationFrame(update);
