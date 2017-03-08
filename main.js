@@ -77,6 +77,7 @@ Fireplace =
         this.e_objbutton.innerHTML = this.infob1;
         
         addEvent(this.e_objbutton, "click", this.feedfuel, this);
+        addEvent(this.e_objbutton, "touchend", this.feedfuel, this);
        
         this.e_obj.appendChild(this.e_objbutton);
     },
@@ -106,10 +107,11 @@ Fireplace =
         firestat_c.style.color = "hsl(" +this.fuel/2+ ", " +this.fuel+ "%, " + 50 + "%)";
     },
     
-    feedfuel : function()
+    feedfuel : function(e)
     {
-        this.fuel += 33;
+        if(e.touches)e.preventDefault();
         
+        this.fuel += 33;
         print("You Fed The Fire")
     }
     
