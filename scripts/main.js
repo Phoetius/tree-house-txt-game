@@ -42,6 +42,5 @@ function update()
     requestAnimationFrame(update);
     
     fireplace1.update();
-    table1.update();
 }
 requestAnimationFrame(update);

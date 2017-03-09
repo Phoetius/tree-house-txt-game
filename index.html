@@ -15,6 +15,22 @@
     
     <style>
     
+        ::-webkit-scrollbar
+        {
+            /*width: 10px;  /* remove scrollbar space */
+            background: none;  /* optional: just make scrollbar invisible */
+        }
+        
+        ::-webkit-scrollbar-thumb
+        {
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgba(0, 0, 0, 0);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, .1);
+            background-clip: content-box
+        }
+    
         .firestat
         {
             color:hsl(0,0%,75%);
@@ -30,12 +46,13 @@
             padding: 10px;
             font-size: 18px;
             color:white;
-            overflow:hidden;
             user-select:none;
         }
         
         .main
         {
+            max-height:500px;
+            overflow-y:auto;
             margin: 5px;
             padding: 5px;
         }

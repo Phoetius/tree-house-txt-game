@@ -33,12 +33,32 @@ Table =
         this.e_objbuttonSB = document.createElement("div");
         this.e_objbuttonSB.setAttribute("class", "button");
         
+        addEvent(this.e_objbuttonSB, "click", this.clickspraybottle, this);
+        addEvent(this.e_objbuttonSB, "touchend", this.clickspraybottle, this);
+        
+        if(this.spraybotook == false)this.e_objbuttonSB.innerHTML = this.infoButtonSBtake;
+        else if(this.spraybotook == true)this.e_objbuttonSB.innerHTML = this.infoButtonSBplace;
+        
         this.e_obj.appendChild(this.e_objbuttonSB);
     },
     
-    update : function()
+    clickspraybottle : function(e)
     {
-        if(this.spraybotook == false)this.e_objbuttonSB.innerHTML = this.infoButtonSBtake;
-        else if(this.spraybotook == true)this.e_objbuttonSB.innerHTML = this.infoButtonSBplace;
-    },
+        if(e.touches)e.preventDefault();
+        
+        if(this.spraybotook == false)
+        {
+            this.spraybotook = true;
+            this.e_objbuttonSB.innerHTML = this.infoButtonSBplace;
+            print("You Took the Spray Bottle")
+        }
+        else
+        {
+            this.spraybotook = false;
+            this.e_objbuttonSB.innerHTML = this.infoButtonSBtake;
+            print("You Placed the Spray Bottle on the table")
+        }
+    }
+    
+    
 }
