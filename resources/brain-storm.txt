@@ -1,0 +1,498 @@
+Tree House Town
+-Super long bridges, foggy
+-Tree has moss on it? - another material to be used
+-Long bridges from tree to tree
+-Cluster of houses almost so close they are touching
+-Branches going in and out of houses
+-Houses inside of the tree in the trunk area
+-Travelers, and sailers go out and bring back fruit, veggie and bean seeds
+-Hydroponic growing -> with sand -> wooden supports when fruit/veggies get bigger
+-A tree that became abandoned because it started dying so there are ruined houses and what not
+-Villager who thinks his pet is long gone (its on the abandoned tree)
+
+-A little kid bonds with a bird that he has been taking care of, and the bird always sits on his shoulder, the kid is calm and serean like his bird, and is absurvent of his birds charictaritics as it gets older. The kid loves telling stories to his bird and loves to talk about him to others.
+
+-Sun diles on top of each tree in canopy area, they ring a bell every hour and ring it however many times so every one knows. Each bell has a different pitch depending on which tree and they harmonize together when they ring. to know when to ring in sink, they have round eices of glass next to them and they are all reflected torwards each tree. Then they each turn the mirror away and when the last one turns they ring.
+
+
+Food
+{
+    - Fruit
+    - Veggies
+    - Sea Life
+}
+
+Clothing
+{
+    - Leaves twined together
+    - Feathers
+    - Mossy
+}
+
+Houses
+{
+    - Simple normal house
+    - 2 story
+    - Hanging
+    - In branches
+    - On side of tree
+}
+
+
+~~Canopy Area~~
+
+-Windy
+-Usually chilly
+
+Houses made of weaved branches and leaves
+    -Inside Houses/Right Outside
+    {
+        Weaved hammock baskets to store clothing and other big things that cant hang
+        Most things are hanging because of movement
+        Clay fire place in the center of room
+        {
+            Cook Food
+            Warmth
+        }
+        Hammock beds made from fresh sturdy stems need repaired often, stuffed with feathers that come off the birds when they shed for Warmth.
+        Wood or rare metal buckets hang outside to catch water
+    }
+
+-Lots of nests and birds
+-A messenger Bird that Travels to somewhat far away trees to send a message.
+-Wind Chimes
+
+People
+{
+    Adults
+    - Watch the weather carefully
+    - Repairs
+
+    Young
+    - Care for birds
+    - Gather materials and tools from below
+    
+    Stories of Storms and mysterious stories of things they think they've seen in the distance. Ghost ships.
+    
+    Each person has a specific task
+    {
+        1. Time Keepers
+        2. Wind Watch
+        3. Saftey/Repair
+        4. Caring for birds that travel there
+        5. Watch the body language of the birds to determine the weather
+    }
+}
+
+Weather : Wind, Greater Rain Impact
+{
+    Small Wooden wind "turbines".(Power)
+    If the wind and weather is strong, a lound bell rings and everyone has to go inside
+    More more frequent repairs
+    Dangerous waves
+}
+
+
+Observatory
+{
+-Workshop rooms
+-Multiple tables
+-Candles, paper, maps on tables
+-Books around the walls
+-Chests
+-Spiral staircase in middle of room
+-Long chairs round staircase
+-Second level
+-Ceiling moves with pullys
+-Ceiling made of rounded branches with moss and leaves weaved into it
+-Second floor has telescope
+-Table next to telescope with a book full of constelations that have been found
+-Hanging fire bowls like a torch
+-Map of stars along the wall
+-Sacks for seating
+-Mossy rugs
+-Aquarium bowls around the room that have jelly fish in them (they form a constelation you can only see from the second floor)
+
+- You have to move the aquariums and put them in certain spots to form a constelation and it unlocks somthing maybe allows you to see
+deeper into that constelation, or unlocks special rooms
+
+-Wind chimes hanging outside
+-Balconeys in different spots
+- Plants on balconys
+- Sacks on balconys
+- Rugs on balconys
+}
+
+
+
+~~Branch Area~~
+
+-Bridges, platforms and stairs ladders, that lead to each building
+-Hanging fire bowls in all places hanging in the branches.
+-Lanterns
+
+Places
+{
+
+    Crafting tools and everyday things hut
+    {
+        Made of: wood and glass windows (burned sand) A wrecked ship wheel on the door, found from scavenging the roots
+        
+        Inside
+        {
+            Wooden work bench
+            Hanging weaved hammock chair that is connected to a wooden pole like thing thats in the ceiling that connects to everywhere In the house so instead of rolling the chair around, it slides on the pole to different spots.
+
+            Tools made of wood, and stones found in the roots
+            {
+                A hammer made with wood base and rock head tied together by strong stems that wrap through holes they burned.
+                A knife made of wood for the handle, and a long pieace of rock tied to it and is thinner torward the edges. (draw to demonstrate)
+            }
+
+            A fire place for heating up rocks and for relaxation and warmth
+            Bayberry wax candles
+            A machine with levers and such that threads leaves and feathers together to make clothes
+            Out side the window is a pully elevator that sends products and recieves material to build and craft
+        }
+    }
+
+    Crafting Fish tool hut
+    {
+        Made of: wood, the roof has a wood structure but is made wih leaves and stems to hold it together. only one wall, rest is open with only supports in each corner.
+        
+        Inside
+        {
+            Long desk the size of the wall
+            Small wooden chest for tools and trinkets
+            Fishing rods, and spears hang on the walls
+            Fishing nets
+            Little fire bowls hang around the hut
+            Weaved sack filled with leaves and feathers for a seat
+            Many different sized rocks on the desk (for the spears)
+            Small invention that quickly snaps wood with a pull of a lever
+            A rock chest that holds all of his wood made with clay to hold the rocks in place, the lid is made of sticks and leaves.
+        }
+    }
+
+
+    Hanging houses
+    {
+        Made of: Circular bottom, wood supports that go all the way around and to the roof except for the door. The inside floor is weaved with wood supports underneath, roof is made with wooden supports and weaved with leaves on outside for extra cover, that lead into a triangle formation where it hangs by rope. some have a small ring balcony, openings for windows
+
+        Inside/outside 1 villagers house
+        {
+            Weaved or wooden chests for storage
+            Small hanging fire bowls
+            Weaved Pillows filled with feathers around the ground
+            Rain water buckets outside
+            Ladders or ropes that connect to the branch that hang outside
+            Lay on leaves and feathers for bed
+        }
+    }
+
+        Inside/outside 2 plant villagers house
+        {
+            Weaved or wooden chests for storage
+            Small wooden desk with paper, pencils, drawings
+            Weaved sacks filled with feathers and leaves for seats on the floor
+            Ring balcony with crates of extra sand, bottles of extra water
+            Rain water buckets and bayberry plants outside ()
+            Ladder that connects from the branch to the balcony
+            Weaved hammock with support of wood that is like a loft that has a ladder up to it
+            Weaved pillows in the loft along with a few hanging candles
+        }
+
+        Inside/outside 3 villagers house
+        {
+            Multiple weaved baskets for storage
+            Small wooden desk small
+            Small fire bowl on desk
+            Little bonsi version of the tree they live on
+            Weaved hammock seats filled with feathers for seats
+            Small bed with wood supports and weaved on top covered in moss wih pillow
+            Rain water buckets outside
+            Rope that connects to the branch that hang outside
+            Wooden
+        }
+
+    Hydroponic Plant Hut (Edit structure) ; Purpose: growing bayberry plant that produces wax for candles; second light source other than wood
+    {
+        The villager who takes care of plants
+        {
+            Sweet
+            A tinkerer
+            Artist, draws in her free time
+            Sings to her plants
+            Meditates on top foor of her hut
+        }
+
+        Description
+        {
+            Open
+            Upstairs
+        }
+
+        Inside
+        {
+            First Floor
+            {
+                Ladder that goes to second floor
+                Plants sitting around the hut in long glass pots on the long tables that go all the way around
+                Fish in the pots?
+                A table where she harvests the wax from the plants
+                Small wooden box that holds paper she uses to spraw out inventions, and tinkering ideas.
+                Wooden shovels, stakes
+                Hanging fire place with wood across the top to hang cooking pots
+                An invention that is just outside above the plants that dumps rain water into curved wood with a pull of a lever; that is Above the plants and adds fresh water to the pot
+            }
+            
+            Second Floor (kinda her chilling calm place when she doesnt work)
+            {
+                More plants sitting around the hut in long glass pots on the table that goes all the way around
+                Books under the table in shelves around the rooms
+                Big bonsi in the corner of the room
+                Fish in the pots?
+                Hanging wax candles
+                Little sack chairs on the floor
+                A rug made of feathers
+                The invention outside above the plants that dumps rain water into curved wood with a pull of a lever; that is above the Plants and adds fresh water to the pot
+            }
+
+            Plant being grown
+            {
+                BayBerry
+                {
+                    Wax havested from the surface of the fruits of the shrub
+                }
+            }
+        }
+    }
+}
+
+~~Slim Trunk Area~~
+
+-Wooden platforms all around the tunk with wooden supports
+-Hole in trunk for easy access instead of going all the way around
+-Stairs inside trunk that lead up to the other levels
+-A Shop (rare items there)
+
+
+Shelter (back up place for everyone to go for bad storms on each tree)
+{
+    shelter inside the tree
+    multiple floors that go up and down the tree to a certain extent
+    where extra food is stored, where everything is stocked up and stored for bad bad storms that last days
+    peoples moods change
+    lots of beds and comfy things to help calm
+    --
+}
+
+
+-Houses inside the tree
+{
+    Some Ladders inside a house that leads to neighbor
+    Ladders or Walkways that lead to other places
+    Balcony
+    Round table
+    Fire place
+    Sack Pillows
+    Couch with moss are cushion
+    Cabinets and Baskets to store clothes, pots, pans, veggies etc.
+
+    Bed
+    {
+        Wooden with moss as cushion
+        Long bean bag sack
+        Hammock
+    }
+    
+    Light source: Fire Bowls, Candles, and Windows
+    
+    Water source
+    {
+        Buckets that go down to the roots and back up using a pully
+        Main water source in the tree, so there is "tubing" that leads to each house? (a Pump)
+    }
+    
+}
+
+-Vegtable Garden and House
+{
+    House hanging on the side of the tree
+    Mossy Roof mostly made of wood (patches of moss)
+    Small balcony
+    Ladder to the garden
+    Multiple gardens separate fruits and veggies (some grow better together, some don't)
+    
+    Inside
+    {
+        Round table in the middle of the room
+        Big feather and Leave rug under table
+        Veggie & fruit bowl on table
+        Wooden bed with feather sack pillow left side of house
+        Fire place/cooking place on the right side of the house
+        Wooden counters that go along to wall with a dip and hole to wash veggies where the sink is
+        Chest to hold gardening tools
+        Wooden watering can
+        Has a big bucket outside horizontaly above a long window that holds water
+        To trigger water you pull a stem/rope
+        Water drains out of the holes into a wooden trough that gets recycled and used again
+        A "basement" or rather small stairs that lead into the tree
+        {
+            Mostly storage for fruits and veggies that are picked
+            Supplies for the gardens
+            baskets of sand, shells and rocks (shells and rocks for niceness)
+            stock pile of wood for the fireplace
+        }
+    }
+}
+
+
+
+Librarian's House
+{
+    Is at the Library, but inside the tree in the center.
+    Favorite books on round shelving
+    Mossy rug in middle of the room
+    Hammock bed with feather blanket
+    Hanging candles
+    --
+}
+
+-Library that wraps around the tree
+{
+    Secret pathways: path to the bottom of the tree where there is firebowls and water to swim in
+    Would be cool to have small short stories for certain books
+    Multiple sections
+    Some sections are outdoor (the spots to read)
+    Wooden floor
+    Branches that go through walls
+    Librarian has an owl that rests on her shoulder
+    Books in shelves along the walls
+    Hanging fire bowls
+    Rock fire places and sacks in the outside areas
+    Wooden benches/chairs and tables inside
+    Lots of windows
+    Scattered bonsi's around
+    Moss rugs
+    Hanging hammock seats
+    Fruit bowls scattered about
+    Would be nice to have a piano
+}
+
+
+
+
+~~Root Area~~
+-Canoes
+-At night glowing jelly fish are everywhere
+-Bait inside the tree roots and nets
+-Board walks
+-Houses on higher roots because of tide
+-Fishing Villagers live here
+-Fisher Man: Calm, Serious, Friendly
+-Nets in the roots to capture fish
+-Boat used to get bigger fish deeper in water and travel to far away trees
+-Bathing areas
+-A dock that goes out a bit for the boats
+
+-Fisherman's hut
+{
+    barrier around house because of tide
+
+    Floor is the root of the trees becuase they are very compacted in the spot where the hut is built
+    Some spots have holes in the floor so its weaved
+    Walls on all sides of hut with windows
+    Buckets of water to clean fish guts
+    Table to disect fish
+    Tools hanging on walls (Made of metal because he swims and explores so he finds more unique materials)
+    Fire bowls that hang in the room
+    Weaved hanging baskets to store the just cought fish before cutting
+    Pully and bucket to transfer fish up the tree to the shop
+}
+
+Fisherman's Wooden Sailboat
+{
+    Biggest boat
+    Weaved netting all the way around for saftey
+    After throwing in a net to catch fish, he has a contraption that pulls shut the net, and brings it aboard
+    Multiple buckets of different sizes for fish
+    Wooden shelter partof boat to get protection from the sun, where the boat is steered
+    Old compass on boat he found
+    Hanging map he made
+    Fishing rod holders on side of boat for normal fishing
+    A few sea plants hang on wooden shelter
+}
+
+-Shell Finders House
+{
+    -Shells hang in bundles around the balcony
+
+    Villager
+    {
+        Kind
+        Enjoys reading and cooking
+        Collects seashells and random things washed ashore
+        Makes necklaces and special weaved baskets that have shells weaved in for decoration
+    }
+    
+    Made of and description:
+    {
+        Wood
+        Small balcony around the house
+        Pretty high on roots
+        Ladder that goes down to board walk
+        Windows on each side of house
+    }
+    
+    Inside
+    {
+        Long table on the side of the house that is deep and filled with sand
+        Little crabs live in shells she finds and in the ecosytem she made for them in the table
+        Small desk in front of the window
+        Little weaved basket that holds shells on table
+        Little weaved basket that holds stems
+        Wooden cabinet for storing clothes
+        Stone fireplace in middle of home smoke goes out the top
+        Hammock as a bed
+        Blanket droops over hammock made of feathers, moss and stem
+        Area rug made of leaves
+        Wooden chair at desk
+        Comfy sack chair by fire (likes to be cozy while making meals and likes to read by the fire)
+        Hanging candles scattered around the house
+    }
+}
+
+-Swimming spots?
+{
+    around coral
+    has a rope to jump into water
+    hanging swings above water
+    hidden chests in water
+    sunken ship to explore
+    --
+}
+
+
+~~Abandoned Tree because it was dying so everyone evacuated~~
+{
+
+Secret -> Someone is actually still living there inside the tree
+
+- Broken bridges and pathways
+- Half sunken boats
+- Tree is hollow, so there is water at the bottom
+- Pathways inside the tree that lead to the person who lives there
+- Abandoned tree houses
+{
+    Broken floors
+    No roofs
+    broken chairs and sacks
+    half hanging hammocks
+    
+}
+
+-Weird spooky noises
+-Graves of peoples deaths
+
+}
