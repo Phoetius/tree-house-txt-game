@@ -29,6 +29,9 @@ TreeHouse.objects.push(fireplace1);
 table1 = Object.create(Table);
 TreeHouse.objects.push(table1);
 
+spraybottle = Object.create(SprayBottle);
+Table.objects.push(spraybottle);
+
 bonsai = Object.create(Bonsai);
 Table.objects.push(bonsai);
 
