@@ -42,5 +42,6 @@ function update()
     requestAnimationFrame(update);
     
     fireplace1.update();
+    bonsai.update();
 }
 requestAnimationFrame(update);
