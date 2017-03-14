@@ -16,17 +16,17 @@ SprayBottle =
         //c_main.appendChild(this.e_obj);
         
         //Spray bottle button
-        this.e_objbuttonSB = document.createElement("div");
-        this.e_objbuttonSB.setAttribute("class", "button");
+        this.e_buttontakeSB = document.createElement("div");
+        this.e_buttontakeSB.setAttribute("class", "button");
         
-        addEvent(this.e_objbuttonSB, "click", this.clickspraybottle, this);
-        addEvent(this.e_objbuttonSB, "touchend", this.clickspraybottle, this);
+        addEvent(this.e_buttontakeSB, "click", this.clickspraybottle, this);
+        addEvent(this.e_buttontakeSB, "touchend", this.clickspraybottle, this);
         
         //Sets innerHTML based on Button Variable
-        if(this.spraybotook == false)this.e_objbuttonSB.innerHTML = this.infoButtonSBtake;
-        else if(this.spraybotook == true)this.e_objbuttonSB.innerHTML = this.infoButtonSBplace;
+        if(this.spraybotook == false)this.e_buttontakeSB.innerHTML = this.infoButtonSBtake;
+        else if(this.spraybotook == true)this.e_buttontakeSB.innerHTML = this.infoButtonSBplace;
         
-        table1.e_obj.appendChild(this.e_objbuttonSB);
+        table1.e_obj.appendChild(this.e_buttontakeSB);
     },
     
     clickspraybottle : function(e)
@@ -37,7 +37,7 @@ SprayBottle =
         if(this.spraybotook == false)
         {
             this.spraybotook = true;
-            this.e_objbuttonSB.innerHTML = this.infoButtonSBplace;
+            this.e_buttontakeSB.innerHTML = this.infoButtonSBplace;
             print("You Took the Spray Bottle");
             
             table1.e_objinfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, and Trimmers";
@@ -51,7 +51,7 @@ SprayBottle =
         else
         {
             this.spraybotook = false;
-            this.e_objbuttonSB.innerHTML = this.infoButtonSBtake;
+            this.e_buttontakeSB.innerHTML = this.infoButtonSBtake;
             print("You Placed the Spray Bottle on the table");
             
             table1.e_objinfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, a Spray Bottle, and Trimmers";

@@ -22,6 +22,7 @@ function addEvent(el, ev, fun, obj)
 
 
 //Creation Of Objects
+player = Object.create(Player);
 
 fireplace1 = Object.create(Fireplace);
 TreeHouse.objects.push(fireplace1);
@@ -35,16 +36,24 @@ Table.objects.push(spraybottle);
 bonsai = Object.create(Bonsai);
 Table.objects.push(bonsai);
 
+treehousedoor = Object.create(Door);
+treehousedoor.dest = Porch;
+TreeHouse.objects.push(treehousedoor);
+
+
+porchdoor = Object.create(Door);
+porchdoor.dest = TreeHouse;
+Porch.objects.push(porchdoor);
+
+
+
 
 //START
-
-TreeHouse.enter();
+player.enter();
 
 function update()
 {
     requestAnimationFrame(update);
-    
-    fireplace1.update();
-    bonsai.update();
+    player.location.update.call(player.location);
 }
 requestAnimationFrame(update);

@@ -73,3 +73,6 @@ Fireplace =
     }
     
 }
+
+
+// put a tag in its on variable.

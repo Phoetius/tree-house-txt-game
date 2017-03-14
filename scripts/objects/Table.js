@@ -8,7 +8,7 @@ Table =
     {
         this.install();
         
-        for(_=0; _<=this.objects.length-1; _++)
+        for(var _=0; _<=this.objects.length-1; _++)
         {
             this.objects[_].enter.call(this.objects[_]);
         }
@@ -29,4 +29,12 @@ Table =
         
         this.e_obj.appendChild(this.e_objinfo);
     },
+    
+    update : function()
+    {
+        for (var _ = 0; _ <= this.objects.length - 1; _++)
+        {
+            if (this.objects[_].update) this.objects[_].update.call(this.objects[_]);
+        }
+    }
 }
