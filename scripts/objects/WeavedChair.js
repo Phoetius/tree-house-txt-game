@@ -1,6 +1,6 @@
 WeavedChair =
 {
-    info : "Weaved Chair <br><br> A small wooden windchime is hanging from the top beam, and puts off a few small notes.",
+    info : "Weaved Chair <br><br> Small little crates are scattered around the chair with dirt and moss growing in them.",
     buttoninfo : "Sit in the weaved chair.",
     
     objects : [],
