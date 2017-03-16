@@ -21,7 +21,6 @@ Fireplace =
         
         //Info Div
         this.e_objinfo = document.createElement("div");
-        this.e_objinfo.setAttribute("class", "info");
         this.e_objinfo.innerHTML = this.info;
         
         this.e_obj.appendChild(this.e_objinfo);

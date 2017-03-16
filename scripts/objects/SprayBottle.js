@@ -40,6 +40,7 @@ SprayBottle =
             this.e_buttontakeSB.innerHTML = this.infoButtonSBplace;
             print("You Took the Spray Bottle");
             
+            //Setting innerHTML of Table
             table1.e_objinfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, and Trimmers";
             
             //Bonsai Water Button

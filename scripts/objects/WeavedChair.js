@@ -1,8 +1,9 @@
-Door =
+WeavedChair =
 {
-    info : "",
-    buttoninfo:"",
-    dest : null,
+    info : "Weaved Chair <br><br> A small wooden windchime is hanging from the top beam, and puts off a few small notes.",
+    buttoninfo : "Sit in the weaved chair.",
+    
+    objects : [],
     
     enter : function()
     {
@@ -16,28 +17,31 @@ Door =
         
         c_main.appendChild(this.e_obj);
         
-        //Info Of e_obj
+        //Info Div
         this.e_infoB = document.createElement("div");
         this.e_infoB.innerHTML = this.info;
         this.e_obj.appendChild(this.e_infoB);
         
-        //Actual Button You Click To Go To Location
+        //Button Sit Div
         this.e_button = document.createElement("div");
         this.e_button.setAttribute("class", "button");
         this.e_button.innerHTML = this.buttoninfo;
         
-        addEvent(this.e_button, "click", this.leave, this);
-        addEvent(this.e_button, "touchend", this.leave, this);
+        addEvent(this.e_button, "click", this.sit, this);
+        addEvent(this.e_button, "touchend", this.sit, this);
         this.e_obj.appendChild(this.e_button);
     },
     
-    leave : function(e)
+    update : function()
     {
-        if(e.touches)e.preventDefault();
-        spraybottle.spraybotook = false;
+        for(var _=0; _<=this.objects.length-1; _++)
+        {
+           if(this.objects[_].update)this.objects[_].update.call(this.objects[_]);
+        }
+    },
+    
+    sit : function()
+    {
         
-        c_main.innerHTML = "";
-        player.location = this.dest;
-        player.enter();
-    }
+    },
 }
