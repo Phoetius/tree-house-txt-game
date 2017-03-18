@@ -1,9 +1,9 @@
 SprayBottle =
 {
      //Spray bottle Variables and Info
-    infoButtonSBtake : "Take Spray Bottle",
-    infoButtonSBplace : "Place Spray Bottle On Table",
-    spraybotook : false,
+    takeSBButtonInfo : "Take Spray Bottle",
+    placeSBButtonInfo : "Place Spray Bottle On Table",
+    sprayBottleTook : false,
     
     enter : function()
     {
@@ -12,53 +12,52 @@ SprayBottle =
     
     install : function()
     {
-        //this.e_obj = document.createElement("div");
-        //c_main.appendChild(this.e_obj);
+        // e_obj
         
         //Spray bottle button
-        this.e_buttontakeSB = document.createElement("div");
-        this.e_buttontakeSB.setAttribute("class", "button");
+        this.e_takeSBButton = document.createElement("div");
+        this.e_takeSBButton.setAttribute("class", "button");
         
-        addEvent(this.e_buttontakeSB, "click", this.clickspraybottle, this);
-        addEvent(this.e_buttontakeSB, "touchend", this.clickspraybottle, this);
+        addEvent(this.e_takeSBButton, "click", this.clickSprayBottle, this);
+        addEvent(this.e_takeSBButton, "touchend", this.clickSprayBottle, this);
         
         //Sets innerHTML based on Button Variable
-        if(this.spraybotook == false)this.e_buttontakeSB.innerHTML = this.infoButtonSBtake;
-        else if(this.spraybotook == true)this.e_buttontakeSB.innerHTML = this.infoButtonSBplace;
+        if(this.sprayBottleTook == false)this.e_takeSBButton.innerHTML = this.takeSBButtonInfo;
+        else if(this.sprayBottleTook == true)this.e_takeSBButton.innerHTML = this.placeSBButtonInfo;
         
-        table1.e_obj.appendChild(this.e_buttontakeSB);
+        table.e_obj.appendChild(this.e_takeSBButton);
     },
     
-    clickspraybottle : function(e)
+    clickSprayBottle : function(e)
     {
         if(e.touches)e.preventDefault();
         
         //Spray Bottle is Held
-        if(this.spraybotook == false)
+        if(this.sprayBottleTook == false)
         {
-            this.spraybotook = true;
-            this.e_buttontakeSB.innerHTML = this.infoButtonSBplace;
+            this.sprayBottleTook = true;
+            this.e_takeSBButton.innerHTML = this.placeSBButtonInfo;
             print("You Took the Spray Bottle");
             
             //Setting innerHTML of Table
-            table1.e_objinfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, and Trimmers";
+            table.e_objInfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, and Trimmers";
             
             //Bonsai Water Button
-            bonsai.e_objbuttonW.style.visibility = "visible";
-            bonsai.e_objbuttonW.style.display = "inherit";
+            bonsai.e_objButtonW.style.visibility = "visible";
+            bonsai.e_objButtonW.style.display = "inherit";
         }
         
         //Spray Bottle is put down
         else
         {
-            this.spraybotook = false;
-            this.e_buttontakeSB.innerHTML = this.infoButtonSBtake;
+            this.sprayBottleTook = false;
+            this.e_takeSBButton.innerHTML = this.takeSBButtonInfo;
             print("You Placed the Spray Bottle on the table");
             
-            table1.e_objinfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, a Spray Bottle, and Trimmers";
+            table1.e_objInfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, a Spray Bottle, and Trimmers";
             
-            bonsai.e_objbuttonW.style.visibility = "hidden";
-            bonsai.e_objbuttonW.style.display = "none";
+            bonsai.e_objButtonW.style.visibility = "hidden";
+            bonsai.e_objButtonW.style.display = "none";
         }
     }
 }

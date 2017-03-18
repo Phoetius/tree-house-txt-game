@@ -24,14 +24,14 @@ player = Object.create(Player);
 
 
 //Tree House
-fireplace1 = Object.create(Fireplace);
-TreeHouse.objects.push(fireplace1);
+firePlace = Object.create(Fireplace);
+TreeHouse.objects.push(firePlace);
 
-table1 = Object.create(Table);
-TreeHouse.objects.push(table1);
+table = Object.create(Table);
+TreeHouse.objects.push(table);
 
-spraybottle = Object.create(SprayBottle);
-Table.objects.push(spraybottle);
+sprayBottle = Object.create(SprayBottle);
+Table.objects.push(sprayBottle);
 
 bonsai = Object.create(Bonsai);
 Table.objects.push(bonsai);
@@ -40,60 +40,60 @@ Table.objects.push(bonsai);
 chest = Object.create(WoodenChest);
 ByWeavedHammock.objects.push(chest);
 
-weavedhammock = Object.create(WeavedHammock);
-ByWeavedHammock.objects.push(weavedhammock);
+weavedHammock = Object.create(WeavedHammock);
+ByWeavedHammock.objects.push(weavedHammock);
 
-walktohammock = Object.create(Door);
-walktohammock.info = "Nearby Hammock";
-walktohammock.buttoninfo = "Walk To Hammock.";
-walktohammock.dest = ByWeavedHammock;
-TreeHouse.objects.push(walktohammock);
+walkToWeavedHammock = Object.create(Door);
+walkToWeavedHammock.info = "Hammock";
+walkToWeavedHammock.buttonInfo = "Walk To Hammock.";
+walkToWeavedHammock.dest = ByWeavedHammock;
+TreeHouse.objects.push(walkToWeavedHammock);
 
-walksToFireplace = Object.create(Door);
-walksToFireplace.info = "Nearby Fireplace";
-walksToFireplace.buttoninfo = "Walk To Fireplace.";
-walksToFireplace.dest = TreeHouse;
-ByWeavedHammock.objects.push(walksToFireplace);
+//
+walkToFireplace = Object.create(Door);
+walkToFireplace.info = "Fireplace";
+walkToFireplace.buttonInfo = "Walk To Fireplace.";
+walkToFireplace.dest = TreeHouse;
+ByWeavedHammock.objects.push(walkToFireplace);
 
 //Chest
-
-
 closeChest = Object.create(Door);
-closeChest.info = "The Chest Latches Together";
-closeChest.buttoninfo = "Close Chest";
+closeChest.info = null;
+closeChest.buttonInfo = "Close Chest";
 closeChest.dest = ByWeavedHammock;
 OpenedChest.objects.push(closeChest);
 
 
 //Tree House door
-treehousedoor = Object.create(Door);
-treehousedoor.dest = Porch;
-treehousedoor.info = "Wooden Door <br><br> The top is rounded, the wood is starting to crack.";
-treehousedoor.buttoninfo = "Leave Treehouse";
-TreeHouse.objects.push(treehousedoor);
+treeHouseDoor = Object.create(Door);
+treeHouseDoor.dest = Porch;
+treeHouseDoor.info = "Wooden Door <br><br> The top is rounded, the wood is starting to crack.";
+treeHouseDoor.buttonInfo = "Leave Treehouse";
+TreeHouse.objects.push(treeHouseDoor);
 
 //Porch
-leftofporch = Object.create(Door);
-leftofporch.info = "Creaky Path To Weaved Chair";
-leftofporch.buttoninfo = "Walk to weaved chair";
-leftofporch.dest = PorchLeft;
-Porch.objects.push(leftofporch);
+leftOfPorch = Object.create(Door);
+leftOfPorch.info = "Creaky Path To Weaved Chair";
+leftOfPorch.buttonInfo = "Walk to weaved chair";
+leftOfPorch.dest = PorchLeft;
+Porch.objects.push(leftOfPorch);
 
-porchdoor = Object.create(Door);
-porchdoor.info = "Wooden Door <br><br> The top is rounded, the wood is starting to crack.";
-porchdoor.buttoninfo = "Enter";
-porchdoor.dest = TreeHouse;
-Porch.objects.push(porchdoor);
+//
+porchDoor = Object.create(Door);
+porchDoor.info = "Wooden Door <br><br> The top is rounded, the wood is starting to crack.";
+porchDoor.buttonInfo = "Enter";
+porchDoor.dest = TreeHouse;
+Porch.objects.push(porchDoor);
 
 //Left of Porch
-weavedchair = Object.create(WeavedChair);
-PorchLeft.objects.push(weavedchair);
+weavedChair = Object.create(WeavedChair);
+PorchLeft.objects.push(weavedChair);
 
-walk_to_tree_house_door = Object.create(Door);
-walk_to_tree_house_door.info = "Creaky Path To Door";
-walk_to_tree_house_door.buttoninfo = "Walk to Door";
-walk_to_tree_house_door.dest = Porch;
-PorchLeft.objects.push(walk_to_tree_house_door);
+walkToTreeHouseDoor = Object.create(Door);
+walkToTreeHouseDoor.info = "Creaky Path To Door";
+walkToTreeHouseDoor.buttonInfo = "Walk to Door";
+walkToTreeHouseDoor.dest = Porch;
+PorchLeft.objects.push(walkToTreeHouseDoor);
 
 
 //START

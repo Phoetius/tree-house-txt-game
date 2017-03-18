@@ -19,9 +19,9 @@ WoodenChest =
         c_main.appendChild(this.e_obj);
         
         //Info Div
-        this.e_objinfo = document.createElement("div");
-        this.e_objinfo.innerHTML = this.info;
-        this.e_obj.appendChild(this.e_objinfo);
+        this.e_objInfo = document.createElement("div");
+        this.e_objInfo.innerHTML = this.info;
+        this.e_obj.appendChild(this.e_objInfo);
         
         // Main Button div
         this.e_button = document.createElement("div");
@@ -71,7 +71,7 @@ WoodenChest =
     {
         if(e.touches)e.preventDefault();
         
-        if(this.locked)print("The Chest Is Lock");
+        if(this.locked)print("The Chest Is Locked");
         else if(this.locked == false)
         {
             print("You Opened The Chest");

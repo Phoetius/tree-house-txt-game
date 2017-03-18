@@ -1,7 +1,7 @@
 Door =
 {
     info : "",
-    buttoninfo:"",
+    buttonInfo:"",
     dest : null,
     
     enter : function()
@@ -24,7 +24,10 @@ Door =
         //Actual Button You Click To Go To Location
         this.e_button = document.createElement("div");
         this.e_button.setAttribute("class", "button");
-        this.e_button.innerHTML = this.buttoninfo;
+        
+        this.e_button.innerHTML = this.buttonInfo;
+        this.e_button.innerHTML.visibility = "hidden";
+        this.e_button.innerHTML.display = "none";
         
         addEvent(this.e_button, "click", this.leave, this);
         addEvent(this.e_button, "touchend", this.leave, this);
@@ -34,7 +37,7 @@ Door =
     leave : function(e)
     {
         if(e.touches)e.preventDefault();
-        spraybottle.spraybotook = false;
+        sprayBottle.sprayBottleTook = false;
         
         c_main.innerHTML = "";
         player.location = this.dest;

@@ -23,9 +23,9 @@ PorchLeft =
         c_main.appendChild(this.e_obj)
         
         //Info Div for Main Div
-        this.e_objinfo = document.createElement("div");
-        this.e_objinfo.innerHTML = this.info;
-        this.e_obj.appendChild(this.e_objinfo);
+        this.e_objInfo = document.createElement("div");
+        this.e_objInfo.innerHTML = this.info;
+        this.e_obj.appendChild(this.e_objInfo);
     },
     
     update : function()

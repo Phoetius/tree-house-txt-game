@@ -1,7 +1,7 @@
 WeavedChair =
 {
     info : "Weaved Chair <br><br> Small little crates are scattered around the chair with dirt and moss growing in them.",
-    buttoninfo : "Sit in the weaved chair.",
+    buttonInfo : "Sit in the weaved chair.",
     
     objects : [],
     
@@ -25,7 +25,7 @@ WeavedChair =
         //Button Sit Div
         this.e_button = document.createElement("div");
         this.e_button.setAttribute("class", "button");
-        this.e_button.innerHTML = this.buttoninfo;
+        this.e_button.innerHTML = this.buttonInfo;
         
         addEvent(this.e_button, "click", this.sit, this);
         addEvent(this.e_button, "touchend", this.sit, this);

@@ -22,9 +22,9 @@ ByWeavedHammock =
         c_main.appendChild(this.e_loc);
         
         //Info Div
-        this.e_locinfo = document.createElement("div");
-        this.e_locinfo.innerHTML = this.info;
-        this.e_loc.appendChild(this.e_locinfo);
+        this.e_locInfo = document.createElement("div");
+        this.e_locInfo.innerHTML = this.info;
+        this.e_loc.appendChild(this.e_locInfo);
     },
     
     update : function()
