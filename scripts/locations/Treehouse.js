@@ -2,7 +2,7 @@ TreeHouse =
 {
     objects:[],
     
-    info: "Tree house <br><br> It's warm and smokey from the fireplace.",
+    info: "Tree house that is connected to the side of the tree <br><br> It's warm and smokey from the fireplace.",
     
     enter : function()
     {

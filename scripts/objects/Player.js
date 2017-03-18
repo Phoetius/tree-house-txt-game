@@ -1,6 +1,7 @@
 Player =
 {
     location : Porch,
+    hasKey : false,
     
     enter : function()
     {

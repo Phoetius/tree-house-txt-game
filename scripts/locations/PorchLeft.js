@@ -1,6 +1,6 @@
 PorchLeft =
 {
-    info: "The Porch <br><br> Big wooden wind chimes hang from the roof of the porch. As the wind flows, they put off a deep soothing sound.",
+    info: "The Porch <br><br> Big wooden wind chimes hang from the railing of the porch. As the wind flows, they put off a deep soothing sound.",
     
     objects: [],
     

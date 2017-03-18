@@ -14,12 +14,28 @@ Tree House Town
 
 -Sun diles on top of each tree in canopy area, they ring a bell every hour and ring it however many times so every one knows. Each bell has a different pitch depending on which tree and they harmonize together when they ring. to know when to ring in sink, they have round eices of glass next to them and they are all reflected torwards each tree. Then they each turn the mirror away and when the last one turns they ring.
 
+Type of tree
+- Birch
+- Produces birch water slight sweetness, silky, boiling makes it more sweet
+- Birch tree has medicine properties; uses mushrooms as bandages and tea
+
+-Some villagers are quiet so you have to bring gifts/talk to them more to get them to open up
+
+
+
 
 Food
 {
     - Fruit
     - Veggies
     - Sea Life
+    - Mushroom
+}
+
+Drink
+{
+    Water
+    Birch water
 }
 
 Clothing
@@ -205,7 +221,7 @@ Places
         Inside/outside 3 villagers house
         {
             Multiple weaved baskets for storage
-            Small wooden desk small
+            Small wooden desk
             Small fire bowl on desk
             Little bonsi version of the tree they live on
             Weaved hammock seats filled with feathers for seats
@@ -285,6 +301,48 @@ Shelter (back up place for everyone to go for bad storms on each tree)
     peoples moods change
     lots of beds and comfy things to help calm
     --
+}
+
+-Medicine house "Keeper of Muhrooms"
+
+{
+    Villager
+    {
+        quiet
+        happy
+        always has mushrooms in her pocket
+        Makes Tea and bandages
+        Doesnt like it when people touch and do things to her mushrooms
+        keeps her tools always in mutiple places; under the fireplace; in locked chests; in her pillow
+        fasinated with fire
+        expirements with the age if mushroom, and has a small book full of written observations. density, softness, etc.
+        always has a bun in her hair
+        has a humming bird for a pet that drinks the water from the tree (usually is boiled first to enrich the sugar)
+        humming bird sits on her head while she works
+    }
+
+    Inside
+    {
+        dim, with certain bright spots
+        different sized birch trees next to each other along the wall with mushrooms growing on them
+        windows on each side of the house
+        weaved holders that hold glass jars with water to keep mushrooms moist when picked
+        fireplace in middle of the room
+        long table under hanging jars
+        journal on table
+        hammock hanging diaganal
+        wooden chests
+        hidden keys to chests
+        hidden tools
+        stack of birch branch by fire
+        wooden box of tinder for fire on table
+        shelves with books and drawings
+        drawings made with coals/ash from the fire
+        small jars holding refreshing birch water on the shelves.
+        Fire bowls around the room
+        2 sacks on the floor where she likes to draw
+        wooden board on floor where she draws
+    }
 }
 
 
@@ -474,7 +532,7 @@ Fisherman's Wooden Sailboat
 }
 
 
-~~Abandoned Tree because it was dying so everyone evacuated~~
+~~Abandoned Tree because it was dying so everyone evacuated ~~
 {
 
 Secret -> Someone is actually still living there inside the tree
