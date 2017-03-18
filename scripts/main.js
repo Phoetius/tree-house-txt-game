@@ -102,7 +102,6 @@ player.enter();
 function update()
 {
     requestAnimationFrame(update);
-    chest.update();
     player.location.update.call(player.location);
 }
 requestAnimationFrame(update);
