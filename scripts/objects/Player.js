@@ -1,6 +1,6 @@
 Player =
 {
-    location : Porch,
+    location : TreeHouse,
     hasKey : false,
     
     enter : function()

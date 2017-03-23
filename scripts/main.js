@@ -138,6 +138,7 @@ world.objects.push(walkToTreeHouseDoor);
 //START
 player.enter();
 
+
 function update()
 {
     requestAnimationFrame(update);
