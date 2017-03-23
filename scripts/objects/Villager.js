@@ -1,7 +1,8 @@
 Villager =
 {
     location : TreeHouse,
-    info : "Villager",
+    info : "Villager <br><br> She has kind eyes, and looks at you happily. :)",
+    sayHello : "Say Hello",
     
     enter : function()
     {
@@ -10,11 +11,22 @@ Villager =
     
     install : function()
     {
+        //Main Div
         this.e_obj = document.createElement("div");
         this.e_obj.setAttribute("class", "info");
-        this.e_obj.innerHTML = this.info;
         
         c_main.insertBefore(this.e_obj, c_main.children[0]);
+        
+        //Info for div
+        this.e_objInfo = document.createElement("div");
+        this.e_objInfo.innerHTML = this.info;
+        this.e_obj.appendChild(this.e_objInfo);
+        
+        //Button Hello
+        this.e_buttonHello = document.createElement("div");
+        this.e_buttonHello.setAttribute("class", "button");
+        this.e_buttonHello.innerHTML = this.sayHello;
+        this.e_obj.appendChild(this.e_buttonHello)
     },
     
     chooseDest : function()
