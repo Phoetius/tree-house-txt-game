@@ -25,6 +25,7 @@ world = {locations: [], objects: []};
 player = Object.create(Player);
 
 villager = Object.create(Villager);
+villager.info = villager.name + " <br><br> She has kind eyes, and looks at you happily. :)",
 
 
 //Tree House

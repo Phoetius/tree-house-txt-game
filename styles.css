@@ -50,6 +50,17 @@
     user-select:none;
 }
 
+.speech
+{
+    background:rgb(20,20,20);
+    margin: 10px;
+    border: solid 2px rgb(50,50,50);
+    padding: 10px;
+    font-size: 18px;
+    color:white;
+    user-select:none;
+}
+
 .button
 {
     background:rgb(20,20,20);

@@ -52,7 +52,7 @@ SprayBottle =
         {
             this.sprayBottleTook = false;
             this.e_takeSBButton.innerHTML = this.takeSBButtonInfo;
-            print("You Placed the Spray Bottle on the table");
+            print("You Placed The Spray Bottle On The table");
             
             table.e_objInfo.innerHTML = "A Long Wooden Table <br><br> Bits of moss travel in between the cracks. On top is a small Bushy Bonsai, a Spray Bottle, and Trimmers";
             
